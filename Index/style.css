@@ -1,0 +1,75 @@
+body {
+	margin:0;
+	font-family: sans-serif;
+}
+
+.hero {
+	/*sizing*/
+	width: 100vw;
+	height: 100vh;
+	
+	/*flexbox stuff*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*text styles*/
+	text-align: center;
+	color: white;
+	
+	/*background styles*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://expressrx.net/wp-content/uploads/little-rock-skyline.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.hero h1 {
+	/*text styles*/
+	font-size: 5em;
+	
+	/*margins*/
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.hero .btn {
+	/*positioning and sizing*/
+	display: block;
+	width: 200px;
+	
+	/*padding and margins*/
+	padding: 1em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*text styles*/
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	
+	/*border styles*/
+	border: 3px solid white;
+	border-radius: 20px; /*rounds the edges of the button border*/
+	
+	/*background styles*/
+	background-color: #ffbf00; 
+}
+
+.navbar {
+	color: white;
+}
+
+.material-icons {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;	
+}
+
+.btn {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
