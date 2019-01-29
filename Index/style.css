@@ -74,15 +74,6 @@ body {
 	display: inline-block;
 }
 
-/*carousel sizing- adjust later
-.carousel-item {
-	height: 200px;
-}
-
-.carousel-item {
-	height: 200px;
-}
-*/
 
 /*popup form*/
 
@@ -169,10 +160,10 @@ body {
 /*-- Title --*/
 
 .nb-form .title {
-    background: #17a2b8;
+    background: #ffc107;
     font-size: 16px !important;
     padding: 20px 18px !important;
-    color: #fff !important;
+    color: #000 !important;
     border-radius: 10px 10px 0 0;
 }
 
@@ -197,8 +188,7 @@ body {
 
 .nb-form input,
 .nb-form textarea {
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     width: 254px;
     max-width: 254px;
     margin-bottom: 10px;
@@ -220,7 +210,7 @@ body {
     display: block;
     width: 120px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
@@ -257,6 +247,7 @@ body {
 
 .nb-form input[type='submit'] {
     background: #17a2b8;
+	border-radius: 4px;
 }
 
 @media screen and (max-width: 676px) {
@@ -277,4 +268,13 @@ body {
         left: 50%;
         transform: translateX(-50%);
     }
+}
+
+.container-fluid {
+	margin-top: 50px;
+}
+#home-cards {
+	margin-top: 50px;
+	}
+}
 }
